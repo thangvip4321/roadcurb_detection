@@ -1,0 +1,16 @@
+# These are the default parameters in case front and back don't provide them.
+# However, i believe that you don't even need to modify them, because they are good enough.
+fps : 30
+# all the number below are in metres
+map_size: 6 # size of the output occupancy grid
+map_resolution: 0.02 
+sampling_radius: 0.3 # the area in front of the camera to be sampled to determine the ground
+min_height_from_realsense: 0.08 # the minimal distance of an object below the camera to be considered part of the ground
+height_from_ground: 0.04 # object spotted at this height will be considered obstacle
+emergency: false # if true, stop the car and publish a fully occupied grid
+orientation: [0,0,0,1]
+position: [0,-3,0] # specifically, 2.5 is half the map size
+sampling_radius: 0.18
+#However, there are some parameters that must be specific to each camera, for instance: camera number and the
+#topic the publisher will publish to.
+

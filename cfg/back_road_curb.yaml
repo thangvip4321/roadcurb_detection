@@ -1,0 +1,4 @@
+serial_no: "841612072050"
+topic_name: rear_road_curb
+orientation: [0,0,1,0]
+position: [-0.45,3,0] # meters
